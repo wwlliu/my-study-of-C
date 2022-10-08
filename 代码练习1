@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 
 #include <stdio.h>
-
+//圆的面积
 int main()
 {
 	float r = 0;
@@ -14,7 +14,7 @@ int main()
 }
 
 
-
+//选择代码
 int main()
 {
 	int input = 0;
@@ -30,7 +30,7 @@ int main()
 }
 
 
-
+//循环代码
 int main()
 {
 	int line = 0;
@@ -46,7 +46,7 @@ int main()
 }
 
 
-
+//结构体代码
 struct Book
 {
 	char name[20];
