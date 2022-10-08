@@ -62,3 +62,37 @@ int main()
 	printf("修改后的价格：%d元\n", b1.price);
 	return 0;
 }
+
+
+//利用指针print
+struct Book
+{
+	char name[20];
+	short price;
+};
+
+int main()
+{
+	struct Book b1 = { "C语言程序设计", 55 };
+	struct Book* pb = &b1;
+	printf("%s\n", (*pb).name);
+	printf("%d元\n", (*pb).price);
+	return 0;
+}
+
+
+//利用指针print的简化表示
+struct Book
+{
+	char name[20];
+	short price;
+};
+
+int main()
+{
+	struct Book b1 = { "C语言程序设计", 55 };
+	struct Book* pb = &b1;
+	printf("%s\n", pb->name);
+	printf("%d元\n", pb->price);
+	return 0;
+}
